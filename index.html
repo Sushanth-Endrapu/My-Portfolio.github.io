@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>ENDRAPU SAI SUSHANTH</h1>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2 id="animatedText1">Welcome to My Portfolio</h2>
+        <!-- <p>
+          I am a passionate and driven student at Chaitanya Bharati Institute of
+          Technology, pursuing my second year.<br />
+          With a strong foundation in computer science and a curiosity for
+          cutting-edge technologies, I am eager to<br />
+          learn and grow professionally.
+        </p> -->
+        <h2 id="animatedText" style="margin-top: 0; margin-left: 430px"></h2>
+        <a href="#about" class="scroll-down"></a>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="content">
+          <div class="profile-picture">
+            <img src="my_profile_pic.jpg" alt="Profile Picture" />
+          </div>
+          <div class="right">
+            <h3>Who am I?</h3>
+            <p>
+              I am a student currently pursuing my second year in Computer
+              Science at Chaitanya Bharati Institute of Technology. With a
+              passion for creating dynamic and engaging web applications, I have
+              honed my skills in HTML, CSS, JavaScript and React. Additionally,
+              I have gained practical experience through an internship at Smart
+              Knower, where I focused on Android app development using Flutter.
+              I am dedicated to continuous learning and eager to contribute my
+              expertise to innovative projects
+            </p>
+            <h3>Education</h3>
+            <ul>
+              <li>Bachelor's Degree in Computer Science</li>
+              <li>Chaitanya Bharati Institute of Technology, 2021-2025</li>
+            </ul>
+            <h3>Experience</h3>
+            <ul>
+              <li>Intern at Smart Knower(2 months)</li>
+            </ul>
+            <h3>Interests</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Artificial Intelligence</li>
+              <li>Machine Learning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>React</li>
+        </ul>
+      </section> -->
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li data-skill="HTML">HTML</li>
+          <li data-skill="CSS">CSS</li>
+          <li data-skill="JavaScript">JavaScript</li>
+          <li data-skill="Python">Python</li>
+          <li data-skill="React">React</li>
+        </ul>
+        <div id="skill-content-container"></div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Adobe clone</p>
+          <p>Technologies used: HTML, CSS, JavaScript</p>
+          <a href="project1.html">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Emojipedia</p>
+          <p>Technologies used: HTML,CSS,React.js</p>
+          <a href="project2.html">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>To Do List</p>
+          <p>Technologies used: HTML, CSS,React.js</p>
+          <a href="project3.html">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 4</h3>
+          <p>Keeper</p>
+          <p>Technologies used: HTML, CSS,React.js</p>
+          <a href="project4.html">View Project</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <div class="left">
+            <p>Feel free to reach out to me via email or phone.</p>
+            <p>Email: sample2003test@gmail.com</p>
+            <p>Phone: 123-456-7890</p>
+          </div>
+          <div class="right">
+            <h3>Connect with Me</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/endrapu-sai-sushanth-128431263"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Sushanth-Endrapu" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <!-- Add more social media profiles -->
+            </ul>
+          </div>
+        </div>
+        <div class="message-form">
+          <h3>Send me a message</h3>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea><br />
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
